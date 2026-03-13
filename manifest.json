@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "flagsmith",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "long_description": "mcp_openapi: Flagsmith's Core and SDK APIs. Check out <a href='https://docs.flagsmith.com'>Flagsmith documentation</a>.",
   "author": {

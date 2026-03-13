@@ -36,9 +36,9 @@ mcp_openapi: Flagsmith's Core and SDK APIs. Check out <a href='https://docs.flag
 <details>
 <summary>Claude Desktop</summary>
 
-Install the MCP server as a Desktop Extension using the pre-built [`mcp-server.mcpb`](./mcp-server.mcpb) file:
+Install the MCP server as a Desktop Extension using the pre-built [`mcp-server.mcpb`](https://github.com/Flagsmith/flagsmith-mcp/releases/download/v0.0.2/mcp-server.mcpb) file:
 
-Simply drag and drop the [`mcp-server.mcpb`](./mcp-server.mcpb) file onto Claude Desktop to install the extension.
+Simply drag and drop the [`mcp-server.mcpb`](https://github.com/Flagsmith/flagsmith-mcp/releases/download/v0.0.2/mcp-server.mcpb) file onto Claude Desktop to install the extension.
 
 The MCP bundle package includes the MCP server and all necessary configuration. Once installed, the server will be available without additional setup.
 
