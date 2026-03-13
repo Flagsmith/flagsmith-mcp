@@ -1,9 +1,13 @@
 {
   "name": "flagsmith",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Speakeasy",
   "type": "module",
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flagsmith/flagsmith-mcp.git"
+  },
   "bin": {
     "flagsmith": "bin/mcp-server.js",
     "mcp": "bin/mcp-server.js"
