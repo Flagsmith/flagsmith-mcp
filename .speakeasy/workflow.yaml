@@ -1,0 +1,13 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    mcp_openapi:
+        inputs:
+            - location: ../flagsmith-api.yaml
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/flagsmith/flagsmith/mcp-openapi
+targets:
+    flagsmith:
+        target: mcp-typescript
+        source: mcp_openapi

@@ -1,0 +1,29 @@
+speakeasyVersion: 1.753.0
+sources:
+    mcp_openapi:
+        sourceNamespace: mcp-openapi
+        sourceRevisionDigest: sha256:5237d1a84dd69c682abce422c6d8ede8f13cd9b72a789fd5570bccf9a46e949e
+        sourceBlobDigest: sha256:3ca1f73dfb2a88439028b943cf5e16c182749c46c91112c492779e68bd77a7ea
+        tags:
+            - latest
+            - v1
+targets:
+    flagsmith:
+        source: mcp_openapi
+        sourceNamespace: mcp-openapi
+        sourceRevisionDigest: sha256:5237d1a84dd69c682abce422c6d8ede8f13cd9b72a789fd5570bccf9a46e949e
+        sourceBlobDigest: sha256:3ca1f73dfb2a88439028b943cf5e16c182749c46c91112c492779e68bd77a7ea
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        mcp_openapi:
+            inputs:
+                - location: ../flagsmith-api.yaml
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/flagsmith/flagsmith/mcp-openapi
+    targets:
+        flagsmith:
+            target: mcp-typescript
+            source: mcp_openapi
